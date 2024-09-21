@@ -1,5 +1,4 @@
-from pydantic import ValidationError
-from pydantic import BaseModel
+from pydantic import ValidationError, BaseModel
 from utils import separator
 
 class Person(BaseModel):
